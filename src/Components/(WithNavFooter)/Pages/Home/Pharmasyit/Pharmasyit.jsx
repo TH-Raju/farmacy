@@ -1,5 +1,6 @@
-import { AllImages } from "@/assests/images/AllImages";
+
 import Image from "next/image";
+import { AllImages } from "../../../../../assests/images/AllImages";
 
 export default function Pharmasyit() {
     return (

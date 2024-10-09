@@ -1,12 +1,13 @@
 
 
 "use client";
-import { AllImages } from "@/assests/images/AllImages";
+
 import { Avatar, ConfigProvider, Upload } from "antd";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { FaCamera } from "react-icons/fa";
+import { AllImages } from "../../../../../assests/images/AllImages";
 
 export default function BlankRecipeComponent() {
   const [prescription, setprescription] = useState(null);

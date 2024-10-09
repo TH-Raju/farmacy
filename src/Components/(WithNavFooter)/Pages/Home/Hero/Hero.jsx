@@ -1,9 +1,10 @@
 'use client'
 
-import { AllImages } from '@/assests/images/AllImages'
+
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react';
+import { AllImages } from '../../../../../assests/images/AllImages';
 
 export default function Hero() {
     const [searchText, setSearchText] = useState('');

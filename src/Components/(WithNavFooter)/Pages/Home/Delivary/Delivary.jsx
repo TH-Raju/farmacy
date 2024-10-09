@@ -1,8 +1,9 @@
 'use client'
 
-import { AllImages } from "@/assests/images/AllImages";
+
 import { Button } from "antd";
 import Image from "next/image";
+import { AllImages } from "../../../../../assests/images/AllImages";
 
 export default function Delivary() {
     return (

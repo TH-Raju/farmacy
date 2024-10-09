@@ -1,4 +1,4 @@
-import React from 'react'
+
 import PharmacyHero from './Pharmacyhero/PharmacyHero'
 import Category from './Category/Category'
 

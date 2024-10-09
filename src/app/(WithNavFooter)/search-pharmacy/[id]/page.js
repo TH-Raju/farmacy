@@ -1,12 +1,12 @@
 'use client';
-import { AllImages } from "@/assests/images/AllImages";
-import Category from "@/Components/(WithNavFooter)/Pages/SearchPharmacy/Category/Category";
-import { Button } from "antd";
+
+
 import Image from "next/image";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { FaArrowRight } from "react-icons/fa";
 import { PiWarningCircleDuotone } from "react-icons/pi";
+import { AllImages } from "../../../../assests/images/AllImages";
 export default function ProductDetailsPage() {
   const { id } = useParams();
   console.log(id);

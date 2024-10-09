@@ -1,10 +1,11 @@
 'use client'
-import { AllImages } from '@/assests/images/AllImages'
+
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 import { useState } from 'react';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
+import { AllImages } from '../../../../../assests/images/AllImages';
 export default function Category() {
     const categories = [
         {

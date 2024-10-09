@@ -1,7 +1,8 @@
-import { AllImages } from '@/assests/images/AllImages'
+
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import { AllImages } from '../../../../../assests/images/AllImages'
 
 export default function PharmacyHero() {
   return (

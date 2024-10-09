@@ -1,7 +1,7 @@
 import Image from "next/image";
+import { AllImages } from "../../../assests/images/AllImages";
 
-import { AllImages } from "@/assests/images/AllImages";
-import SecondFooter from "./SecondFooter";
+
 
 const Footer = () => {
     return (

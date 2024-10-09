@@ -1,6 +1,6 @@
 'use client'
 
-import { AllImages } from '@/assests/images/AllImages';
+
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -8,6 +8,7 @@ import { FaArrowLeft, FaArrowRight, FaMinus, FaPlus } from 'react-icons/fa'
 import { PiWarningCircleDuotone } from 'react-icons/pi';
 import { useState } from "react";
 import { useRouter } from 'next/navigation';
+import { AllImages } from '../../../../assests/images/AllImages'
 export default function ProductList() {
     // counter
     const [quantity, setQuantity] = useState(1);

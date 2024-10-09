@@ -1,11 +1,12 @@
 'use client'
 
-import { AllImages } from '@/assests/images/AllImages'
+
 import { ConfigProvider, Form, Input, message } from 'antd'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import React from 'react'
 import { FaArrowLeft } from 'react-icons/fa'
+import { AllImages } from '../../../../../assests/images/AllImages'
 
 export default function Payment() {
     const onFinish = (values) => {

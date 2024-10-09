@@ -6,7 +6,8 @@ import { RxHamburgerMenu } from "react-icons/rx"
 
 import { useState } from "react"
 import Link from "next/link"
-import { AllImages } from "@/assests/images/AllImages"
+import { AllImages } from "../../../assests/images/AllImages"
+
 const Navbar = () => {
 
     // mobile header
