@@ -1,9 +1,10 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import { AntdRegistry } from "@ant-design/nextjs-registry";
-import Navbar from "@/Components/(Shared)/Navbar/Navbar";
-import Footer from "@/Components/(Shared)/Footer/Footer";
-import SecondFooter from "@/Components/(Shared)/Footer/SecondFooter";
+
+import Navbar from "../Components/(Shared)/Navbar/Navbar";
+import Footer from "../Components/(Shared)/Footer/Footer";
+import SecondFooter from "../Components/(Shared)/Footer/SecondFooter";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

@@ -1,4 +1,5 @@
-import CancelOrder from "@/Components/(WithNavFooter)/Pages/Cart/CancelOrder/CancelOrder";
+import CancelOrder from "../../../../Components/(WithNavFooter)/Pages/Cart/CancelOrder/CancelOrder";
+
 
 export default function CancelOrderPage() {
   return (

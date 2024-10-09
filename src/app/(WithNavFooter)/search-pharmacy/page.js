@@ -1,6 +1,7 @@
 
-import SearchPharmacy from '@/Components/(WithNavFooter)/Pages/SearchPharmacy/SearchPharmacy'
+
 import React from 'react'
+import SearchPharmacy from '../../../Components/(WithNavFooter)/Pages/SearchPharmacy/SearchPharmacy'
 
 export default function page() {
     return (
