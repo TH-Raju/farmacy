@@ -1,13 +1,15 @@
 'use client'
 
-import GoBackButton from '@/Components/(Shared)/GoBackButton/GoBackButton'
+
 import { ConfigProvider, Form, Input, Popover, Radio, Steps } from 'antd';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaMinus, FaPlus } from 'react-icons/fa';
 import { PiWarningCircleDuotone } from 'react-icons/pi';
 import { useState } from 'react';
-import { AllImages } from '@/assests/images/AllImages';
+import { AllImages } from '../../../assests/images/AllImages';
+import GoBackButton from '../../../Components/(Shared)/GoBackButton/GoBackButton';
+
 export default function PaymentMthodPage() {
     const products = [
         {

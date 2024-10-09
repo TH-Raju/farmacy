@@ -1,12 +1,13 @@
 'use client'
-import { AllImages } from '@/assests/images/AllImages';
-import GoBackButton from '@/Components/(Shared)/GoBackButton/GoBackButton'
+
 import { useState } from "react";
 import { ConfigProvider, Popover, Steps } from 'antd';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaArrowRight, FaMinus, FaPlus } from 'react-icons/fa';
 import { PiWarningCircleDuotone } from 'react-icons/pi';
+import GoBackButton from "../../../../Components/(Shared)/GoBackButton/GoBackButton";
+import { AllImages } from "../../../../assests/images/AllImages";
 export default function YourOrder() {
     // counter
     const [quantity, setQuantity] = useState(1);

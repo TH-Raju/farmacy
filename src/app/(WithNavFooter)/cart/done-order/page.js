@@ -1,10 +1,11 @@
 'use client'
-import { AllImages } from '@/assests/images/AllImages';
-import GoBackButton from '@/Components/(Shared)/GoBackButton/GoBackButton'
+
 import { ConfigProvider, Popover, Steps } from 'antd'
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
+import { AllImages } from '../../../../assests/images/AllImages';
+import GoBackButton from '../../../../Components/(Shared)/GoBackButton/GoBackButton';
 
 export default function DoneOrder() {
     // steps

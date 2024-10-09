@@ -1,7 +1,8 @@
-import { AllImages } from '@/assests/images/AllImages'
-import GoBackButton from '@/Components/(Shared)/GoBackButton/GoBackButton'
+
 import Image from 'next/image'
 import React from 'react'
+import GoBackButton from '../../../../Components/(Shared)/GoBackButton/GoBackButton'
+import { AllImages } from '../../../../assests/images/AllImages'
 
 export default function SuccessRecipe() {
     return (

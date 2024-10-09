@@ -1,6 +1,6 @@
 'use client'
-import { AllImages } from '@/assests/images/AllImages';
-import GoBackButton from '@/Components/(Shared)/GoBackButton/GoBackButton'
+
+
 import React, { useState } from 'react';
 import { Radio } from 'antd';
 import { ConfigProvider, Popover, Steps } from 'antd';
@@ -8,6 +8,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FaArrowRight, FaMinus, FaPlus } from 'react-icons/fa';
 import { PiWarningCircleDuotone } from 'react-icons/pi';
+import { AllImages } from '../../../../assests/images/AllImages';
+import GoBackButton from '../../../../Components/(Shared)/GoBackButton/GoBackButton';
 export default function ChoseDelivary() {
     // counter
     const [quantity, setQuantity] = useState(1);
